@@ -1,6 +1,6 @@
 {
   "name": "@mordis-dev/components",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Components library",
   "main": "src/index.ts",
   "scripts": {
