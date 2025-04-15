@@ -4,7 +4,7 @@ import type { Meta, StoryObj } from "@storybook/react";
 import { breakpoints } from "../../globals";
 
 import { Box } from "../Box";
-import { Heading } from "../Heading/Heading";
+import { Heading } from "../Heading";
 
 import { Text } from ".";
 
