@@ -6,5 +6,5 @@ export default {
     file: "dist/index.js",
     format: "cjs",
   },
-  plugins: [typescript()],
+  plugins: [typescript({ exclude: ["**/*.stories.tsx", "**/Journal.tsx"] })],
 };

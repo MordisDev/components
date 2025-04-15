@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 
 import { DateTime } from "luxon";
 
@@ -8,9 +8,9 @@ type TimerProps = {
 };
 
 export const Timer = ({ targetTime }: TimerProps) => {
-  const [time, setTime] = useState(DateTime.now());
+  const [time, setTime] = React.useState(DateTime.now());
 
-  useEffect(() => {
+  React.useEffect(() => {
     const interval = setInterval(() => {
       setTime(() => DateTime.now().minus({ minute: 10 }));
     }, 500);
